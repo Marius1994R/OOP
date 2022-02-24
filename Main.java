@@ -14,8 +14,11 @@ public class Main {
 //        casaVecinului.doorsNumber = 12;
 
         User marius = new User("Rasbici", "Marius", 27);
+        User vasile = new User("Vasile","Gheorghe", 24);
+        User mihai = new User("Ionescu","Mihai");
 
-
-
+        System.out.println("Varsta lui Mihai este " + mihai.age);
+        User anonim = new User();
+        System.out.println("Nume user: " + anonim.lastName + " " + anonim.firstName);
     }
 }

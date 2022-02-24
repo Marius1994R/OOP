@@ -12,8 +12,17 @@ public class User {
         lastName = lastNameGiven;
         firstName = firstNameGiven;
         age = ageGiven;
-
-
     }
 
+    public User(String lastNameGiven, String firstNameGiven) {
+        lastName = lastNameGiven;
+        firstName = firstNameGiven;
+        age = 1;
+    }
+    public User() {
+        age = 0;
+        lastName = "No name";
+        firstName = "No name";
+    }
 }
+
